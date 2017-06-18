@@ -12,7 +12,7 @@
 		574B5D911BEA3E7900F4EC5A /* GPUImageColorConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 574B5D8F1BEA3E7900F4EC5A /* GPUImageColorConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		574B5D921BEA3E7900F4EC5A /* GPUImageColorConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 574B5D901BEA3E7900F4EC5A /* GPUImageColorConversion.m */; };
 		79840B831C8B29240079A83B /* GPUImageSolarizeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 79840B811C8B29240079A83B /* GPUImageSolarizeFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79840B841C8B29240079A83B /* GPUImageSolarizeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79840B821C8B29240079A83B /* GPUImageSolarizeFilter.m */; settings = {ASSET_TAGS = (); }; };
+		79840B841C8B29240079A83B /* GPUImageSolarizeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79840B821C8B29240079A83B /* GPUImageSolarizeFilter.m */; };
 		A4741D5A19A92098005EE1A4 /* GPUImageHistogramEqualizationFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A4741D5819A92098005EE1A4 /* GPUImageHistogramEqualizationFilter.h */; };
 		A4741D5B19A92098005EE1A4 /* GPUImageHistogramEqualizationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4741D5919A92098005EE1A4 /* GPUImageHistogramEqualizationFilter.m */; };
 		A50607171C78BF7C0095D0BB /* GPUImageTextureOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = A50607151C78BF7C0095D0BB /* GPUImageTextureOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1555,7 +1555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "@loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_MODULE_NAME = GPUImage;
 				SDKROOT = macosx;
@@ -1584,7 +1584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "@loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_MODULE_NAME = GPUImage;
 				SDKROOT = macosx;
 			};
