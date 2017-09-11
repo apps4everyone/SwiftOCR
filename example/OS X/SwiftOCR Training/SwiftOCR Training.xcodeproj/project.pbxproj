@@ -87,7 +87,7 @@
 		37711D941CD78CB700DC6B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37711D961CD78CB700DC6B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37711DB61CD7A84D00DC6B43 /* ButtonTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableCellView.swift; sourceTree = "<group>"; };
-		37CCABC41CD8D03600ECA264 /* SwiftOCR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SwiftOCR.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		37CCABC41CD8D03600ECA264 /* SwiftOCR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SwiftOCR.swift; sourceTree = "<group>"; };
 		37CCABC51CD8D03600ECA264 /* SwiftOCRTraining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftOCRTraining.swift; sourceTree = "<group>"; };
 		37CCABC61CD8D03600ECA264 /* OCR-Network */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "OCR-Network"; sourceTree = "<group>"; };
 		37CCABC71CD8D03600ECA264 /* SwiftOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftOCR.h; sourceTree = "<group>"; };
