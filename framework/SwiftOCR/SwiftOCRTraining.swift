@@ -13,7 +13,7 @@ open class SwiftOCRTraining {
     fileprivate let ocrInstance        = SwiftOCR()
     
     //Training Variables
-    fileprivate let trainingImageNames = ["TrainingBackground_1.png", "TrainingBackground_2.png", "TrainingBackground_3.png", "TrainingBackground_4.png"]
+    fileprivate let trainingImageNames = ["TrainingBackground_1.png"]//["TrainingBackground_1.png", "TrainingBackground_2.png", "TrainingBackground_3.png", "TrainingBackground_4.png"]
     open var trainingFontNames  = ["OcrB Regular"]
 
     public  init() {}
@@ -23,8 +23,8 @@ open class SwiftOCRTraining {
      */
     
     open  func trainWithCharSet(_ shouldContinue: @escaping (Float) -> Bool = {_ in return true}) {
-        let numberOfTrainImages  = 1000
-        let numberOfTestImages   = 200
+        let numberOfTrainImages  = 5000
+        let numberOfTestImages   = 100
         let errorThreshold:Float = 2
         
         let trainData = generateRealisticCharSet(numberOfTrainImages/4)
