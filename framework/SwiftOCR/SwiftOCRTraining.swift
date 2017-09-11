@@ -23,8 +23,8 @@ open class SwiftOCRTraining {
      */
     
     open  func trainWithCharSet(_ shouldContinue: @escaping (Float) -> Bool = {_ in return true}) {
-        let numberOfTrainImages  = 500
-        let numberOfTestImages   = 100
+        let numberOfTrainImages  = 1000
+        let numberOfTestImages   = 200
         let errorThreshold:Float = 2
         
         let trainData = generateRealisticCharSet(numberOfTrainImages/4)
