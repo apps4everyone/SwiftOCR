@@ -32,6 +32,7 @@
 		37CCABEC1CD8D03600ECA264 /* CrossPlatformSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CCABD81CD8D03600ECA264 /* CrossPlatformSupport.swift */; };
 		37CCABED1CD8D03600ECA264 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CCABD91CD8D03600ECA264 /* Extensions.swift */; };
 		37CCABEE1CD8D03600ECA264 /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CCABDA1CD8D03600ECA264 /* UnionFind.swift */; };
+		F6905C5D1F668FB200E9449F /* TrainingBackground_0.png in Resources */ = {isa = PBXBuildFile; fileRef = F6905C5C1F668FB200E9449F /* TrainingBackground_0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		37CCABD81CD8D03600ECA264 /* CrossPlatformSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossPlatformSupport.swift; sourceTree = "<group>"; };
 		37CCABD91CD8D03600ECA264 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		37CCABDA1CD8D03600ECA264 /* UnionFind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnionFind.swift; sourceTree = "<group>"; };
+		F6905C5C1F668FB200E9449F /* TrainingBackground_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrainingBackground_0.png; path = "Realistic Training Images/TrainingBackground_0.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 		37CCABCF1CD8D03600ECA264 /* Realistic Training Images */ = {
 			isa = PBXGroup;
 			children = (
+				F6905C5C1F668FB200E9449F /* TrainingBackground_0.png */,
 				37CCABCB1CD8D03600ECA264 /* TrainingBackground_1.png */,
 				37CCABCC1CD8D03600ECA264 /* TrainingBackground_2.png */,
 				37CCABCD1CD8D03600ECA264 /* TrainingBackground_3.png */,
@@ -319,6 +322,7 @@
 			files = (
 				37CCABE01CD8D03600ECA264 /* Info.plist in Resources */,
 				37711D921CD78CB700DC6B43 /* Assets.xcassets in Resources */,
+				F6905C5D1F668FB200E9449F /* TrainingBackground_0.png in Resources */,
 				37CCABE41CD8D03600ECA264 /* TrainingBackground_4.png in Resources */,
 				37CCABE21CD8D03600ECA264 /* TrainingBackground_2.png in Resources */,
 				37CCABE31CD8D03600ECA264 /* TrainingBackground_3.png in Resources */,

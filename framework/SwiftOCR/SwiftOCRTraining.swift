@@ -13,7 +13,7 @@ open class SwiftOCRTraining {
     fileprivate let ocrInstance        = SwiftOCR()
     
     //Training Variables
-    fileprivate let trainingImageNames = ["TrainingBackground_1.png"]//["TrainingBackground_1.png", "TrainingBackground_2.png", "TrainingBackground_3.png", "TrainingBackground_4.png"]
+    fileprivate let trainingImageNames = ["TrainingBackground_0.png", "TrainingBackground_1.png", "TrainingBackground_2.png", "TrainingBackground_3.png", "TrainingBackground_4.png"]
     open var trainingFontNames  = ["OcrB Regular"]
 
     public  init() {}

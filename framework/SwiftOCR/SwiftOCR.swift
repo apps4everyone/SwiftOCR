@@ -54,7 +54,7 @@ open class SwiftOCR {
     open      var characterBlackList: String? = nil
     
     ///Confidence must be bigger than the threshold
-    open      var confidenceThreshold:Float = 0.4
+    open      var confidenceThreshold:Float = 0.1
     
     //MARK: Recognition data
     
