@@ -131,7 +131,7 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
 
-  s.xcconfig = { "SWIFT_VERSION" => "3.1" }
+  #s.xcconfig = { "SWIFT_VERSION" => "3.1" }
   s.dependency "GPUImage"
 
 end
